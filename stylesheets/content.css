@@ -543,6 +543,10 @@
   animation: solariumLineOne 5s linear infinite;
 }
 
+.solariumLineImg {
+  width: 28vw;
+}
+
 .solariumLineTwo {
   width: 28vw;
   position: absolute;
@@ -553,11 +557,11 @@
 }
 
 @keyframes solariumLineOne {
-  from {
+  0% {
     margin-top: 75%;
     margin-left: -28%;
   }
-  to {
+  100% {
     margin-top: 10%;
     margin-left: 100%;
   }
