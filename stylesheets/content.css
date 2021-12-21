@@ -5,38 +5,24 @@
   box-sizing: border-box;
 }
 
-.ragugaPic {
-  width: 52vw;
-}
-
-.raduga {
-  position: absolute;
-  width: 52vw; /* 51.6 */
-  margin-left: 0;
-  margin-top: 0;
-  animation: raduga 2s ease-in-out infinite;
-}
-
 .uga {
   position: absolute;
   width: 55vw;
-  margin-left: -7.8%;
-  margin-top: -3.6%;
-  animation: ugaAnimated 4s ease-in-out infinite;
+  margin-left: -9%;
+  margin-top: -4.2%;
+  animation: ugaAnimated 3s ease-in-out infinite;
 }
 
 .ugaImg {
   width: 55vw;
 }
 
-
-
 .rad {
   position: absolute;
   width: 52vw;
-  margin-left: -10.9%;
-  margin-top: -4.5%;
-  animation: radAnimated 4s ease-in-out infinite;
+  margin-left: -12.1%;
+  margin-top: -5.2%;
+  animation: radAnimated 3s ease-in-out infinite;
 }
 
 .radImg {
@@ -45,13 +31,13 @@
 
 @keyframes radAnimated {
   0% {
-    margin-left: -10.9%;
-    margin-top: -4.5%;
+    margin-left: -12.1%;
+    margin-top: -5.2%;
   }
 
   20% {
-    margin-left: -10.9%;
-    margin-top: -4.5%;
+    margin-left: -12.1%;
+    margin-top: -5.2%;
   }
 
   40% {
@@ -60,20 +46,20 @@
   }
 
   60% {
-    margin-left: -10.9%;
-    margin-top: -4.5%;
+    margin-left: -12.1%;
+    margin-top: -5.2%;
   }
 
   100% {
-    margin-left: -10.9%;
-    margin-top: -4.5%;
+    margin-left: -12.1%;
+    margin-top: -5.2%;
   }
 }
 
 @keyframes ugaAnimated {
   0% {
-    margin-left: -7.8%;
-    margin-top: -3.6%;
+    margin-left: -9%;
+    margin-top: -4.2%;
   }
 
   20% {
@@ -87,13 +73,13 @@
   }
 
   80% {
-    margin-left: -7.8%;
-    margin-top: -3.6%;
+    margin-left: -9%;
+    margin-top: -4.2%;
   }
 
   100% {
-    margin-left: -7.8%;
-    margin-top: -3.6%;
+    margin-left: -9%;
+    margin-top: -4.2%;
   }
 }
 
@@ -548,6 +534,37 @@
 .guyOnePink:hover, .guyTwoRed:hover, .guyThreeGreen:hover {
   animation-play-state: paused;
 }
+
+.solariumLineOne {
+  width: 28vw;
+  position: absolute;
+  margin-top: 10.5%;
+  margin-left: 100%;
+  animation: solariumLineOne 5s linear infinite;
+}
+
+.solariumLineTwo {
+  width: 28vw;
+  position: absolute;
+  margin-top: 10.5%;
+  margin-left: 100%;
+  animation: solariumLineOne 5s linear infinite;
+  animation-delay: 2.5s;
+}
+
+@keyframes solariumLineOne {
+  from {
+    margin-top: 75%;
+    margin-left: -28%;
+  }
+  to {
+    margin-top: 10%;
+    margin-left: 100%;
+  }
+}
+
+
+
 
 
 
