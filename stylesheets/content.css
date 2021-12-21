@@ -567,6 +567,74 @@
   }
 }
 
+.zagoriLineOne {
+  width: 46%;
+  position: absolute;
+  margin-top: 192%; /**198 - 110**/
+  margin-left: -47%; /**-47 - 100**/
+  animation: zagoriLineOne 5s linear infinite;
+}
+
+.zagoriLineTwo {
+  width: 46%;
+  position: absolute;
+  margin-top: 192%; /**198 - 110**/
+  margin-left: -47%; /**-47 - 100**/
+  animation: zagoriLineOne 5s linear infinite;
+  animation-delay: 2.5s;
+}
+
+.zagoriLineImg {
+  width: 46vw;
+}
+
+@keyframes zagoriLineOne {
+  0% {
+    margin-top: 192%;
+    margin-left: -47%;
+  }
+
+  100% {
+    margin-top: 119%;
+    margin-left: 100%;
+  }
+}
+
+.artPracticeLineOne {
+  width: 49%;
+  position: absolute;
+  margin-top: 241%; /**198 - 110**/
+  margin-left: -49%; /**-47 - 100**/
+  overflow: hidden;
+  animation: artPracticeLine 5s linear infinite;
+}
+
+.artPracticeLineTwo {
+  width: 49%;
+  position: absolute;
+  margin-top: 241%; /**198 - 110**/
+  margin-left: -49%; /**-47 - 100**/
+  overflow: hidden;
+  animation: artPracticeLine 5s linear infinite;
+  animation-delay: 2.5s;
+}
+
+.artPracticeLineImg {
+  width: 49vw;
+}
+
+@keyframes artPracticeLine {
+  0% {
+    margin-top: 241%;
+    margin-left: -49%;
+  }
+
+  100% {
+    margin-top: 166%;
+    margin-left: 100%;
+  }
+}
+
 
 
 
