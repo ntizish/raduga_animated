@@ -535,88 +535,72 @@
   animation-play-state: paused;
 }
 
-.solariumLineOne {
+.solariumLine {
   width: 28vw;
   position: absolute;
-  margin-top: 10.5%;
-  margin-left: 100%;
-  animation: solariumLineOne 5s linear infinite;
+  margin-top: 60%;
+  margin-left: 2%;
+  animation: solariumLine 5s ease-in-out infinite;
 }
 
 .solariumLineImg {
   width: 28vw;
 }
 
-.solariumLineTwo {
-  width: 28vw;
-  position: absolute;
-  margin-top: 10.5%;
-  margin-left: 100%;
-  animation: solariumLineOne 5s linear infinite;
-  animation-delay: 2.5s;
-}
 
-@keyframes solariumLineOne {
+@keyframes solariumLine {
   0% {
-    margin-top: 75%;
-    margin-left: -28%;
+    margin-top: 60%;
+    margin-left: 2%;
   }
+
+  50% {
+    margin-top: 26%;
+    margin-left: 70%;
+  }
+
   100% {
-    margin-top: 10%;
-    margin-left: 100%;
+    margin-top: 60%;
+    margin-left: 2%;
   }
 }
 
-.zagoriLineOne {
+.zagoriLine {
   width: 46%;
   position: absolute;
-  margin-top: 192%; /**198 - 110**/
-  margin-left: -47%; /**-47 - 100**/
-  animation: zagoriLineOne 5s linear infinite;
+  margin-top: 147.8%; /**198 - 110**/
+  margin-left: 3%; /**-47 - 100**/
+  animation: zagoriLine 5s ease-in-out infinite;
 }
 
-.zagoriLineTwo {
-  width: 46%;
-  position: absolute;
-  margin-top: 192%; /**198 - 110**/
-  margin-left: -47%; /**-47 - 100**/
-  animation: zagoriLineOne 5s linear infinite;
-  animation-delay: 2.5s;
-}
 
 .zagoriLineImg {
   width: 46vw;
 }
 
-@keyframes zagoriLineOne {
+@keyframes zagoriLine {
   0% {
-    margin-top: 192%;
-    margin-left: -47%;
+    margin-top: 147.8%;
+    margin-left: 3%;
+  }
+
+  50% {
+    margin-top: 123.5%;
+    margin-left: 53%;
   }
 
   100% {
-    margin-top: 119%;
-    margin-left: 100%;
+    margin-top: 147.8%;
+    margin-left: 3%;
   }
 }
 
-.artPracticeLineOne {
+.artPracticeLine {
   width: 49%;
   position: absolute;
-  margin-top: 241%; /**198 - 110**/
-  margin-left: -49%; /**-47 - 100**/
-  overflow: hidden;
-  animation: artPracticeLine 5s linear infinite;
-}
-
-.artPracticeLineTwo {
-  width: 49%;
-  position: absolute;
-  margin-top: 241%; /**198 - 110**/
-  margin-left: -49%; /**-47 - 100**/
-  overflow: hidden;
-  animation: artPracticeLine 5s linear infinite;
-  animation-delay: 2.5s;
+  margin-top: 167%;
+  margin-left: 2%;
+  animation: artPracticeLine 5s ease-in-out infinite;
 }
 
 .artPracticeLineImg {
@@ -625,16 +609,31 @@
 
 @keyframes artPracticeLine {
   0% {
-    margin-top: 241%;
-    margin-left: -49%;
+    margin-top: 167%;
+    margin-left: 2%;
+  }
+
+  50% {
+    margin-top: 144%;
+    margin-left: 49%;
   }
 
   100% {
-    margin-top: 166%;
-    margin-left: 100%;
+    margin-top: 167%;
+    margin-left: 2%;
   }
 }
 
+/*.descriptor {*/
+/*  width: 98%;*/
+/*  position: absolute;*/
+/*  right: 0;*/
+/*  margin-top: 149%;*/
+/*}*/
+
+/*.descriptorImg {*/
+/*  width: 98vw;*/
+/*}*/
 
 
 
@@ -649,4 +648,5 @@
 
 body {
   margin: 0;
+  position: relative;
 }
