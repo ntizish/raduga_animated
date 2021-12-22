@@ -599,7 +599,7 @@
 .artPracticeLine {
   width: 49%;
   position: absolute;
-  margin-top: 166.5%;
+  margin-top: 196%;
   margin-left: 2%;
   animation: artPracticeLine 5s ease-in-out infinite;
 }
@@ -610,17 +610,17 @@
 
 @keyframes artPracticeLine {
   0% {
-    margin-top: 166.5%;
+    margin-top: 196%;
     margin-left: 2%;
   }
 
   50% {
-    margin-top: 143.5%;
+    margin-top: 173%;
     margin-left: 49%;
   }
 
   100% {
-    margin-top: 166.5%;
+    margin-top: 196%;
     margin-left: 2%;
   }
 }
