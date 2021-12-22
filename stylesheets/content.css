@@ -568,7 +568,7 @@
 .zagoriLine {
   width: 46%;
   position: absolute;
-  margin-top: 147.8%; /**198 - 110**/
+  margin-top: 147.5%; /**198 - 110**/
   margin-left: 3%; /**-47 - 100**/
   animation: zagoriLine 5s ease-in-out infinite;
 }
@@ -576,21 +576,22 @@
 
 .zagoriLineImg {
   width: 46vw;
+  transform: rotate(0.5deg);
 }
 
 @keyframes zagoriLine {
   0% {
-    margin-top: 147.8%;
+    margin-top: 147.5%;
     margin-left: 3%;
   }
 
   50% {
-    margin-top: 123.5%;
+    margin-top: 123%;
     margin-left: 53%;
   }
 
   100% {
-    margin-top: 147.8%;
+    margin-top: 147.5%;
     margin-left: 3%;
   }
 }
@@ -598,7 +599,7 @@
 .artPracticeLine {
   width: 49%;
   position: absolute;
-  margin-top: 167%;
+  margin-top: 166.5%;
   margin-left: 2%;
   animation: artPracticeLine 5s ease-in-out infinite;
 }
@@ -609,24 +610,33 @@
 
 @keyframes artPracticeLine {
   0% {
-    margin-top: 167%;
+    margin-top: 166.5%;
     margin-left: 2%;
   }
 
   50% {
-    margin-top: 144%;
+    margin-top: 143.5%;
     margin-left: 49%;
   }
 
   100% {
-    margin-top: 167%;
+    margin-top: 166.5%;
     margin-left: 2%;
   }
 }
 
 /*.descriptor {*/
 /*  width: 98%;*/
+/*  position: absolute;*.descriptor {*/
+/*  width: 98%;*/
 /*  position: absolute;*/
+/*  right: 0;*/
+/*  margin-top: 149%;*/
+/*}*/
+
+/*.descriptorImg {*/
+/*  width: 98vw;*/
+/*}/
 /*  right: 0;*/
 /*  margin-top: 149%;*/
 /*}*/
