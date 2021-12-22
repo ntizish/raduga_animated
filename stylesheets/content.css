@@ -570,7 +570,7 @@
   position: absolute;
   margin-top: 147.5%; /**198 - 110**/
   margin-left: 3%; /**-47 - 100**/
-  animation: zagoriLine 5s ease-in-out infinite;
+  animation: zagoriLine 4s ease-in-out infinite;
 }
 
 
