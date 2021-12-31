@@ -1,15 +1,30 @@
-.backG {
+.backG1 {
   width: 100%;
   position: absolute;
   margin: 0;
   box-sizing: border-box;
 }
 
+.backG2 {
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  box-sizing: border-box;
+  opacity: 1;
+  animation: backG 3s ease-in-out infinite;
+}
+
+@keyframes backG {
+  100% {opacity: 1;}
+  50% {opacity: 0;}
+  0% {opacity: 1;}
+}
+
 .uga {
   position: absolute;
   width: 55vw;
-  margin-left: -9%;
-  margin-top: -4.2%;
+  margin-left: -9.1%;
+  margin-top: -4.1%;
   animation: ugaAnimated 3s ease-in-out infinite;
 }
 
@@ -20,7 +35,7 @@
 .rad {
   position: absolute;
   width: 52vw;
-  margin-left: -12.1%;
+  margin-left: -12%;
   margin-top: -5.2%;
   animation: radAnimated 3s ease-in-out infinite;
 }
@@ -31,12 +46,12 @@
 
 @keyframes radAnimated {
   0% {
-    margin-left: -12.1%;
+    margin-left: -12%;
     margin-top: -5.2%;
   }
 
   20% {
-    margin-left: -12.1%;
+    margin-left: -12%;
     margin-top: -5.2%;
   }
 
@@ -46,40 +61,40 @@
   }
 
   60% {
-    margin-left: -12.1%;
+    margin-left: -12%;
     margin-top: -5.2%;
   }
 
   100% {
-    margin-left: -12.1%;
+    margin-left: -12%;
     margin-top: -5.2%;
   }
 }
 
 @keyframes ugaAnimated {
   0% {
-    margin-left: -9%;
-    margin-top: -4.2%;
+    margin-left: -9.1%;
+    margin-top: -4.1%;
   }
 
   20% {
     margin-left: -2.8%;
-    margin-top: -1.1%;
+    margin-top: -1%;
   }
 
   60% {
     margin-left: -2.8%;
-    margin-top: -1.1%;
+    margin-top: -1%;
   }
 
   80% {
-    margin-left: -9%;
-    margin-top: -4.2%;
+    margin-left: -9.1%;
+    margin-top: -4.1%;
   }
 
   100% {
-    margin-left: -9%;
-    margin-top: -4.2%;
+    margin-left: -9.1%;
+    margin-top: -4.1%;
   }
 }
 
@@ -99,28 +114,6 @@
     margin-left: 0;
   }
 
-}
-
-.human {
-  position: absolute;
-  width: 60vw; /* 60.03 */
-  margin-left: 20vw; /* 19.98 */
-  margin-top: 67.1%; /* 27.08 */
-}
-
-.humanPic {
-  width: 60vw;
-}
-
-.sun {
-  position: absolute;
-  width: 40vw; /* 60.03 */
-  margin-left: 60vw; /* 19.98 */
-  margin-top: 47.2%; /* 27.08 */
-}
-
-.sunPic {
-  width: 40vw;
 }
 
 .rt1 {
@@ -466,73 +459,6 @@
   margin-left: 60%;
   margin-top: 111.6%;
   width: 10vw;
-}
-
-.guyOne {
-  position: absolute;
-  margin-left: 8.65%;
-  margin-top: 195.3%;
-  width: 24.86vw;
-}
-
-.guyOneYellow {
-  position: absolute;
-  width: 24.86vw;
-}
-
-.guyOnePink {
-  position: absolute;
-  width: 24.86vw;
-  animation: flicker 4s linear infinite;
-  animation-play-state: running;
-}
-
-.guyTwo {
-  position: absolute;
-  margin-left: 39.4%;
-  margin-top: 180.1%;
-  width: 24.86vw;
-}
-
-.guyTwoBlue {
-  position: absolute;
-  width: 24.86vw;
-}
-
-.guyTwoRed {
-  position: absolute;
-  width: 24.86vw;
-  animation: flicker 3s linear infinite;
-  animation-play-state: running;
-}
-
-.guyThree {
-  position: absolute;
-  margin-left: 70.1%;
-  margin-top: 164.85%;
-  width: 24.86vw;
-}
-
-.guyThreeRed {
-  position: absolute;
-  width: 24.86vw;
-}
-
-.guyThreeGreen {
-  position: absolute;
-  width: 24.86vw;
-  animation: flicker 2s linear infinite;
-  animation-play-state: running;
-}
-
-@keyframes flicker {
-  100% {opacity: 1;}
-  50% {opacity: 0;}
-  0% {opacity: 1;}
-}
-
-.guyOnePink:hover, .guyTwoRed:hover, .guyThreeGreen:hover {
-  animation-play-state: paused;
 }
 
 .solariumLine {
